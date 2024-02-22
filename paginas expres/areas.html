@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title class="titulo">Encuentra las areas de las siguientes figuras</title>
+	<link rel="stylesheet" type="text/css" href="estiloa.css">
+	<script src="jsareas.js" charset="utf-8"></script>
+</head>
+<body>
+<body onload="areas()">
+	<header class="header">
+		<div class="container logo-nav">
+			<a href="#" class="logo">Macias</a>
+			<nav class="navegation">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="fecha.html">Fechas</a></li>
+					<li><a href="areas.html">Areas</a></li>
+					<li><a href="porcentaje.html">Porcentajes</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="contenido" id="contenido">
+		<h2>Triangulos rectangulo</h2>
+		<p>Halla el area Conociendo su base y su altura</p>
+			<p>Base</p><input type="number" id="base">
+				<p>Altura</p><input type="number" id="altura">
+					<button id="boton">Operacion</button>
+						<table>
+							<tr><td><span id="resultado"></span></td>
+							</tr>
+						</table>
+					<img src="imagen/triangulo1.png" id="triangulo1" width="450px">
+
+	</div>
+	<div class="contenido" id="contenido1">
+		<h2>Rectangulos</h2>
+		<p>Halla el area Conociendo su base y su altura</p>
+			<p>Base</p><input type="number" id="base1">
+				<p>Altura</p><input type="number" id="altura1">
+					<button id="boton1">Operacion</button>
+						<table>
+							<tr><td><span id="resultado1"></span></td>
+							</tr>
+						</table>
+					<img src="imagen/rectangulo.jpg" id="rectangulo" width="450px" height="400px">
+	</div>
+	<div class="contenido" id="contenido2">
+		<h2>Cuadrado</h2>
+			<p>Halla el area Conociendo la medida de sus lados</p><br>
+				<p>valor de los Lados</p><input type="number" id="lados">
+						<button id="boton2">Operacion</button>
+							<table>
+								<tr><td><span id="resultado2"></span></td>
+								</tr>
+							</table>
+						<img src="imagen/cuadrado.gif" id="cuadrado" width="450px">	
+	</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+	font-family: times;
+	background-image: url("imagen/fondo.jpg");
+	background-size: 10%;
+}
+.contenido{
+	margin-top: 15%;
+	margin-left: 15%;
+	background-color: #ff2c2c;
+	margin-right: 50%;
+}
+#resultado{
+	display: block;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 50px;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #e4e4e4;
+	border-radius: 25px;
+	overflow-y: scroll;
+	margin-top: -45%;
+	margin-left: 60%;
+	margin-bottom: 50%;
+}
+#imagen{
+	margin-left: 60%;
+	margin-top: -40%;
+}
